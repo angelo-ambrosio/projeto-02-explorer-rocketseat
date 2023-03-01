@@ -24,6 +24,55 @@ ul {
     font-family: 'Mulish', sans-serif;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #1F1534;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 h1 {
     font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    color: black;
+    font-weight: normal;
+}
+
+h1 span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 40px 0;
+}
+
+button{
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
